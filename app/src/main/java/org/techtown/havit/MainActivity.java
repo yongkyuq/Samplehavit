@@ -66,8 +66,18 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(this, "세번째 메뉴 선택됨.", Toast.LENGTH_LONG).show();
             Intent bintent =  new Intent(this,BasketActivity.class);
             startActivity(bintent);
+<<<<<<< HEAD
         }
 
+=======
+        }else if (id == R.id.login) {
+            Toast.makeText(this, "네번째 메뉴 선택됨.", Toast.LENGTH_LONG).show();
+            Intent bintent =  new Intent(this,SignInActivity.class);
+            startActivity(bintent);
+        }
+
+
+>>>>>>> e14700a (Initial commit)
         drawer.closeDrawer(GravityCompat.START);
 
         return true;
